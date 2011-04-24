@@ -1,0 +1,25 @@
+
+Changed on 11-02-2011 by Karsten Albreksten.
+
+The following changes are made from previous version:
+
+1) On start up the current processor type is detected (89S51, 89S52 or 89S8253).
+ 
+
+2) If the program is started with a hex file,the size of hex file is shown.
+
+
+3) The following functions are new:
+
+   "Verify"         : Compares the flash memory with the hex file
+   "Read flash"     : Read the flash memory
+   "Write lock bit" : Write lock bit, mode 1, 2 or 3.
+
+4) If the program is started without a .hex file, only the following menu items are shown:
+
+   1 Read flash
+   2 Erase flash
+   3 Write lock bit
+   4 Exit
+
+
